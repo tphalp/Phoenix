@@ -21,6 +21,7 @@
 		945AE709182070A000DA3B43 /* MASShortcutView+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE704182070A000DA3B43 /* MASShortcutView+UserDefaults.m */; };
 		945AE70C1820710A00DA3B43 /* SDKeyBindingTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE70B1820710A00DA3B43 /* SDKeyBindingTranslator.m */; };
 		945AE7111820715800DA3B43 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945AE70D1820712500DA3B43 /* Carbon.framework */; };
+		945AE714182073FE00DA3B43 /* SDConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE713182073FE00DA3B43 /* SDConfig.m */; };
 		945C09AC180D75A90088921D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945C09AB180D75A90088921D /* Cocoa.framework */; };
 		945C09B6180D75A90088921D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 945C09B4180D75A90088921D /* InfoPlist.strings */; };
 		945C09B8180D75A90088921D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 945C09B7180D75A90088921D /* main.m */; };
@@ -72,6 +73,9 @@
 		945AE70B1820710A00DA3B43 /* SDKeyBindingTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKeyBindingTranslator.m; sourceTree = "<group>"; };
 		945AE70D1820712500DA3B43 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		945AE70F1820713100DA3B43 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		945AE712182073FE00DA3B43 /* SDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDConfig.h; sourceTree = "<group>"; };
+		945AE713182073FE00DA3B43 /* SDConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDConfig.m; sourceTree = "<group>"; };
+		945AE715182075C400DA3B43 /* BWCallable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWCallable.h; sourceTree = "<group>"; };
 		945C09A8180D75A90088921D /* Phoenix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phoenix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		945C09AB180D75A90088921D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		945C09AE180D75A90088921D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -121,6 +125,7 @@
 		945AE6E918206E3500DA3B43 /* Beowulf */ = {
 			isa = PBXGroup;
 			children = (
+				945AE715182075C400DA3B43 /* BWCallable.h */,
 				945AE6E418206E0F00DA3B43 /* libBeowulf.a */,
 				945AE6E618206E1D00DA3B43 /* prelude.bwlf */,
 				945AE6EA18206E4A00DA3B43 /* BWEnv.h */,
@@ -212,6 +217,8 @@
 				945C09C0180D75A90088921D /* MainMenu.xib */,
 				945C09BD180D75A90088921D /* AppDelegate.h */,
 				945C09BE180D75A90088921D /* AppDelegate.m */,
+				945AE712182073FE00DA3B43 /* SDConfig.h */,
+				945AE713182073FE00DA3B43 /* SDConfig.m */,
 				945AE6FA1820709800DA3B43 /* Hotkeys */,
 				945AE6E918206E3500DA3B43 /* Beowulf */,
 				945AE6ED18206FD400DA3B43 /* Proxies */,
@@ -389,6 +396,7 @@
 				945AE708182070A000DA3B43 /* MASShortcutView.m in Sources */,
 				945C09BF180D75A90088921D /* AppDelegate.m in Sources */,
 				945AE706182070A000DA3B43 /* MASShortcut+Monitoring.m in Sources */,
+				945AE714182073FE00DA3B43 /* SDConfig.m in Sources */,
 				945AE705182070A000DA3B43 /* MASShortcut.m in Sources */,
 				945AE707182070A000DA3B43 /* MASShortcut+UserDefaults.m in Sources */,
 				945C09B8180D75A90088921D /* main.m in Sources */,

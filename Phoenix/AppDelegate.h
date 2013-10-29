@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "SDConfig.h"
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property SDConfig *config;
+
+@property IBOutlet NSMenu* menu;
+@property NSStatusItem* statusItem;
 
 @end
