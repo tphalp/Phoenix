@@ -1,0 +1,10 @@
+PODS:
+  - Silica (0.2)
+
+DEPENDENCIES:
+  - Silica (= 0.2)
+
+SPEC CHECKSUMS:
+  Silica: 433238b014f804e49e2c3873e2ab80ae1e68cb1c
+
+COCOAPODS: 0.26.2

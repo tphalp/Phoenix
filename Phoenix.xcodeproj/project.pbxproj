@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A06B27526745A59D692208 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B282100F89ED4375A4450744 /* libPods.a */; };
+		945AE6E518206E0F00DA3B43 /* libBeowulf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 945AE6E418206E0F00DA3B43 /* libBeowulf.a */; };
+		945AE6E718206E1D00DA3B43 /* prelude.bwlf in Resources */ = {isa = PBXBuildFile; fileRef = 945AE6E618206E1D00DA3B43 /* prelude.bwlf */; };
 		945C09AC180D75A90088921D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945C09AB180D75A90088921D /* Cocoa.framework */; };
 		945C09B6180D75A90088921D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 945C09B4180D75A90088921D /* InfoPlist.strings */; };
 		945C09B8180D75A90088921D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 945C09B7180D75A90088921D /* main.m */; };
@@ -31,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621F5C36B60B4953B380A8D3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		945AE6E418206E0F00DA3B43 /* libBeowulf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBeowulf.a; sourceTree = "<group>"; };
+		945AE6E618206E1D00DA3B43 /* prelude.bwlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prelude.bwlf; sourceTree = "<group>"; };
+		945AE6E818206E3100DA3B43 /* Beowulf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beowulf.h; sourceTree = "<group>"; };
+		945AE6EA18206E4A00DA3B43 /* BWEnv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWEnv.h; sourceTree = "<group>"; };
 		945C09A8180D75A90088921D /* Phoenix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phoenix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		945C09AB180D75A90088921D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		945C09AE180D75A90088921D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +58,7 @@
 		945C09D1180D75A90088921D /* PhoenixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoenixTests-Info.plist"; sourceTree = "<group>"; };
 		945C09D3180D75A90088921D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		945C09D5180D75A90088921D /* PhoenixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoenixTests.m; sourceTree = "<group>"; };
+		B282100F89ED4375A4450744 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				945C09AC180D75A90088921D /* Cocoa.framework in Frameworks */,
+				30A06B27526745A59D692208 /* libPods.a in Frameworks */,
+				945AE6E518206E0F00DA3B43 /* libBeowulf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		945AE6E918206E3500DA3B43 /* Beowulf */ = {
+			isa = PBXGroup;
+			children = (
+				945AE6E418206E0F00DA3B43 /* libBeowulf.a */,
+				945AE6E618206E1D00DA3B43 /* prelude.bwlf */,
+				945AE6EA18206E4A00DA3B43 /* BWEnv.h */,
+				945AE6E818206E3100DA3B43 /* Beowulf.h */,
+			);
+			name = Beowulf;
+			sourceTree = "<group>";
+		};
 		945C099F180D75A90088921D = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +102,7 @@
 				945C09CF180D75A90088921D /* PhoenixTests */,
 				945C09AA180D75A90088921D /* Frameworks */,
 				945C09A9180D75A90088921D /* Products */,
+				621F5C36B60B4953B380A8D3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +121,7 @@
 				945C09AB180D75A90088921D /* Cocoa.framework */,
 				945C09CA180D75A90088921D /* XCTest.framework */,
 				945C09AD180D75A90088921D /* Other Frameworks */,
+				B282100F89ED4375A4450744 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +139,7 @@
 		945C09B1180D75A90088921D /* Phoenix */ = {
 			isa = PBXGroup;
 			children = (
+				945AE6E918206E3500DA3B43 /* Beowulf */,
 				945C09BD180D75A90088921D /* AppDelegate.h */,
 				945C09BE180D75A90088921D /* AppDelegate.m */,
 				945C09C0180D75A90088921D /* MainMenu.xib */,
@@ -161,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 945C09D9180D75A90088921D /* Build configuration list for PBXNativeTarget "Phoenix" */;
 			buildPhases = (
+				F9FFFD89528B416EAF19EB5C /* Check Pods Manifest.lock */,
 				945C09A4180D75A90088921D /* Sources */,
 				945C09A5180D75A90088921D /* Frameworks */,
 				945C09A6180D75A90088921D /* Resources */,
+				85B96753EAA54395BB7532DF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +259,7 @@
 			files = (
 				945C09B6180D75A90088921D /* InfoPlist.strings in Resources */,
 				945C09C4180D75A90088921D /* Images.xcassets in Resources */,
+				945AE6E718206E1D00DA3B43 /* prelude.bwlf in Resources */,
 				945C09BC180D75A90088921D /* Credits.rtf in Resources */,
 				945C09C2180D75A90088921D /* MainMenu.xib in Resources */,
 			);
@@ -246,6 +274,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85B96753EAA54395BB7532DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FFFD89528B416EAF19EB5C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		945C09A4180D75A90088921D /* Sources */ = {
@@ -381,12 +442,17 @@
 		};
 		945C09DA180D75A90088921D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621F5C36B60B4953B380A8D3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Phoenix/Phoenix-Prefix.pch";
 				INFOPLIST_FILE = "Phoenix/Phoenix-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sdegutis/Dropbox/projects/Phoenix/Phoenix,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,12 +460,17 @@
 		};
 		945C09DB180D75A90088921D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621F5C36B60B4953B380A8D3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Phoenix/Phoenix-Prefix.pch";
 				INFOPLIST_FILE = "Phoenix/Phoenix-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sdegutis/Dropbox/projects/Phoenix/Phoenix,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -464,6 +535,7 @@
 				945C09DB180D75A90088921D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		945C09DC180D75A90088921D /* Build configuration list for PBXNativeTarget "PhoenixTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +544,7 @@
 				945C09DE180D75A90088921D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
