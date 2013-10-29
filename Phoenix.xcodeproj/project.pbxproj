@@ -10,6 +10,17 @@
 		30A06B27526745A59D692208 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B282100F89ED4375A4450744 /* libPods.a */; };
 		945AE6E518206E0F00DA3B43 /* libBeowulf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 945AE6E418206E0F00DA3B43 /* libBeowulf.a */; };
 		945AE6E718206E1D00DA3B43 /* prelude.bwlf in Resources */ = {isa = PBXBuildFile; fileRef = 945AE6E618206E1D00DA3B43 /* prelude.bwlf */; };
+		945AE6F418206FDC00DA3B43 /* SDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE6EF18206FDC00DA3B43 /* SDWindow.m */; };
+		945AE6F518206FDC00DA3B43 /* NSScreen+SilicaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE6F118206FDC00DA3B43 /* NSScreen+SilicaExtension.m */; };
+		945AE6F618206FDC00DA3B43 /* SDApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE6F318206FDC00DA3B43 /* SDApp.m */; };
+		945AE6F91820707D00DA3B43 /* SDHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE6F81820707D00DA3B43 /* SDHotKey.m */; };
+		945AE705182070A000DA3B43 /* MASShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE6FC182070A000DA3B43 /* MASShortcut.m */; };
+		945AE706182070A000DA3B43 /* MASShortcut+Monitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE6FE182070A000DA3B43 /* MASShortcut+Monitoring.m */; };
+		945AE707182070A000DA3B43 /* MASShortcut+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE700182070A000DA3B43 /* MASShortcut+UserDefaults.m */; };
+		945AE708182070A000DA3B43 /* MASShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE702182070A000DA3B43 /* MASShortcutView.m */; };
+		945AE709182070A000DA3B43 /* MASShortcutView+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE704182070A000DA3B43 /* MASShortcutView+UserDefaults.m */; };
+		945AE70C1820710A00DA3B43 /* SDKeyBindingTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AE70B1820710A00DA3B43 /* SDKeyBindingTranslator.m */; };
+		945AE7111820715800DA3B43 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945AE70D1820712500DA3B43 /* Carbon.framework */; };
 		945C09AC180D75A90088921D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945C09AB180D75A90088921D /* Cocoa.framework */; };
 		945C09B6180D75A90088921D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 945C09B4180D75A90088921D /* InfoPlist.strings */; };
 		945C09B8180D75A90088921D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 945C09B7180D75A90088921D /* main.m */; };
@@ -39,6 +50,28 @@
 		945AE6E618206E1D00DA3B43 /* prelude.bwlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prelude.bwlf; sourceTree = "<group>"; };
 		945AE6E818206E3100DA3B43 /* Beowulf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beowulf.h; sourceTree = "<group>"; };
 		945AE6EA18206E4A00DA3B43 /* BWEnv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWEnv.h; sourceTree = "<group>"; };
+		945AE6EE18206FDC00DA3B43 /* SDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWindow.h; sourceTree = "<group>"; };
+		945AE6EF18206FDC00DA3B43 /* SDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWindow.m; sourceTree = "<group>"; };
+		945AE6F018206FDC00DA3B43 /* NSScreen+SilicaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScreen+SilicaExtension.h"; sourceTree = "<group>"; };
+		945AE6F118206FDC00DA3B43 /* NSScreen+SilicaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScreen+SilicaExtension.m"; sourceTree = "<group>"; };
+		945AE6F218206FDC00DA3B43 /* SDApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDApp.h; sourceTree = "<group>"; };
+		945AE6F318206FDC00DA3B43 /* SDApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDApp.m; sourceTree = "<group>"; };
+		945AE6F71820707D00DA3B43 /* SDHotKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDHotKey.h; sourceTree = "<group>"; };
+		945AE6F81820707D00DA3B43 /* SDHotKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDHotKey.m; sourceTree = "<group>"; };
+		945AE6FB182070A000DA3B43 /* MASShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASShortcut.h; sourceTree = "<group>"; };
+		945AE6FC182070A000DA3B43 /* MASShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASShortcut.m; sourceTree = "<group>"; };
+		945AE6FD182070A000DA3B43 /* MASShortcut+Monitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcut+Monitoring.h"; sourceTree = "<group>"; };
+		945AE6FE182070A000DA3B43 /* MASShortcut+Monitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut+Monitoring.m"; sourceTree = "<group>"; };
+		945AE6FF182070A000DA3B43 /* MASShortcut+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcut+UserDefaults.h"; sourceTree = "<group>"; };
+		945AE700182070A000DA3B43 /* MASShortcut+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut+UserDefaults.m"; sourceTree = "<group>"; };
+		945AE701182070A000DA3B43 /* MASShortcutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASShortcutView.h; sourceTree = "<group>"; };
+		945AE702182070A000DA3B43 /* MASShortcutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASShortcutView.m; sourceTree = "<group>"; };
+		945AE703182070A000DA3B43 /* MASShortcutView+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcutView+UserDefaults.h"; sourceTree = "<group>"; };
+		945AE704182070A000DA3B43 /* MASShortcutView+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcutView+UserDefaults.m"; sourceTree = "<group>"; };
+		945AE70A1820710A00DA3B43 /* SDKeyBindingTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKeyBindingTranslator.h; sourceTree = "<group>"; };
+		945AE70B1820710A00DA3B43 /* SDKeyBindingTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKeyBindingTranslator.m; sourceTree = "<group>"; };
+		945AE70D1820712500DA3B43 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		945AE70F1820713100DA3B43 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		945C09A8180D75A90088921D /* Phoenix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phoenix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		945C09AB180D75A90088921D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		945C09AE180D75A90088921D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -66,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945AE7111820715800DA3B43 /* Carbon.framework in Frameworks */,
 				945C09AC180D75A90088921D /* Cocoa.framework in Frameworks */,
 				30A06B27526745A59D692208 /* libPods.a in Frameworks */,
 				945AE6E518206E0F00DA3B43 /* libBeowulf.a in Frameworks */,
@@ -95,6 +129,40 @@
 			name = Beowulf;
 			sourceTree = "<group>";
 		};
+		945AE6ED18206FD400DA3B43 /* Proxies */ = {
+			isa = PBXGroup;
+			children = (
+				945AE6EE18206FDC00DA3B43 /* SDWindow.h */,
+				945AE6EF18206FDC00DA3B43 /* SDWindow.m */,
+				945AE6F018206FDC00DA3B43 /* NSScreen+SilicaExtension.h */,
+				945AE6F118206FDC00DA3B43 /* NSScreen+SilicaExtension.m */,
+				945AE6F218206FDC00DA3B43 /* SDApp.h */,
+				945AE6F318206FDC00DA3B43 /* SDApp.m */,
+			);
+			name = Proxies;
+			sourceTree = "<group>";
+		};
+		945AE6FA1820709800DA3B43 /* Hotkeys */ = {
+			isa = PBXGroup;
+			children = (
+				945AE70A1820710A00DA3B43 /* SDKeyBindingTranslator.h */,
+				945AE70B1820710A00DA3B43 /* SDKeyBindingTranslator.m */,
+				945AE6F71820707D00DA3B43 /* SDHotKey.h */,
+				945AE6F81820707D00DA3B43 /* SDHotKey.m */,
+				945AE6FB182070A000DA3B43 /* MASShortcut.h */,
+				945AE6FC182070A000DA3B43 /* MASShortcut.m */,
+				945AE6FD182070A000DA3B43 /* MASShortcut+Monitoring.h */,
+				945AE6FE182070A000DA3B43 /* MASShortcut+Monitoring.m */,
+				945AE6FF182070A000DA3B43 /* MASShortcut+UserDefaults.h */,
+				945AE700182070A000DA3B43 /* MASShortcut+UserDefaults.m */,
+				945AE701182070A000DA3B43 /* MASShortcutView.h */,
+				945AE702182070A000DA3B43 /* MASShortcutView.m */,
+				945AE703182070A000DA3B43 /* MASShortcutView+UserDefaults.h */,
+				945AE704182070A000DA3B43 /* MASShortcutView+UserDefaults.m */,
+			);
+			name = Hotkeys;
+			sourceTree = "<group>";
+		};
 		945C099F180D75A90088921D = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +186,8 @@
 		945C09AA180D75A90088921D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				945AE70F1820713100DA3B43 /* CoreServices.framework */,
+				945AE70D1820712500DA3B43 /* Carbon.framework */,
 				945C09AB180D75A90088921D /* Cocoa.framework */,
 				945C09CA180D75A90088921D /* XCTest.framework */,
 				945C09AD180D75A90088921D /* Other Frameworks */,
@@ -139,10 +209,12 @@
 		945C09B1180D75A90088921D /* Phoenix */ = {
 			isa = PBXGroup;
 			children = (
-				945AE6E918206E3500DA3B43 /* Beowulf */,
+				945C09C0180D75A90088921D /* MainMenu.xib */,
 				945C09BD180D75A90088921D /* AppDelegate.h */,
 				945C09BE180D75A90088921D /* AppDelegate.m */,
-				945C09C0180D75A90088921D /* MainMenu.xib */,
+				945AE6FA1820709800DA3B43 /* Hotkeys */,
+				945AE6E918206E3500DA3B43 /* Beowulf */,
+				945AE6ED18206FD400DA3B43 /* Proxies */,
 				945C09C3180D75A90088921D /* Images.xcassets */,
 				945C09B2180D75A90088921D /* Supporting Files */,
 			);
@@ -313,8 +385,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945AE70C1820710A00DA3B43 /* SDKeyBindingTranslator.m in Sources */,
+				945AE708182070A000DA3B43 /* MASShortcutView.m in Sources */,
 				945C09BF180D75A90088921D /* AppDelegate.m in Sources */,
+				945AE706182070A000DA3B43 /* MASShortcut+Monitoring.m in Sources */,
+				945AE705182070A000DA3B43 /* MASShortcut.m in Sources */,
+				945AE707182070A000DA3B43 /* MASShortcut+UserDefaults.m in Sources */,
 				945C09B8180D75A90088921D /* main.m in Sources */,
+				945AE6F618206FDC00DA3B43 /* SDApp.m in Sources */,
+				945AE6F418206FDC00DA3B43 /* SDWindow.m in Sources */,
+				945AE6F91820707D00DA3B43 /* SDHotKey.m in Sources */,
+				945AE709182070A000DA3B43 /* MASShortcutView+UserDefaults.m in Sources */,
+				945AE6F518206FDC00DA3B43 /* NSScreen+SilicaExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
