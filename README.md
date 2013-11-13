@@ -1,6 +1,10 @@
 ## Phoenix
 
-The weird window manager for OS X
+Window manager for OS X
+
+#### Status
+
+Not ready for actual use just yet. Beowulf needs clojure.core ported first.
 
 #### Rationale
 
