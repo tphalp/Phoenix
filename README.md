@@ -1,6 +1,6 @@
 ## Phoenix
 
-Window manager for OS X
+Fork of Zephyros, by the creator of Zephyros.
 
 #### Status
 
