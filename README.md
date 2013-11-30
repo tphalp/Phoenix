@@ -2,9 +2,15 @@
 
 Fork of Zephyros that's scripted in [Beowulf](https://github.com/sdegutis/beowulf).
 
-#### Status
+#### Future
 
-Not ready for actual use just yet. Beowulf needs clojure.core ported first.
+Beowulf's current implementation is horribly inefficient and barely
+working. Development on it has come to a slight stand-still due to
+real life getting in the way. A future implementation is planned that
+fixes its inefficiencies, heavily inspired by Lua 5.x, but for the
+time being it's not practical to use. So I plan to fork Phoenix and
+make it scripted in Lua, just so I can get the basics in place. Later,
+when Beowulf is more mature, I'll replace Lua with it.
 
 #### Rationale
 
