@@ -122,6 +122,12 @@ AXError _AXUIElementGetWindow(AXUIElementRef, CGWindowID* out);
     }]];
 }
 
+- (NSArray*) allWindowsOnSameScreen {
+    return [[PHWindow visibleWindows] filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(PHWindow* win, NSDictionary *bindings) {
+        return [[self screen] isEqual: [win screen]];
+    }]];
+}
+
 - (NSArray*) otherWindowsOnAllScreens {
     return [[PHWindow visibleWindows] filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(PHWindow* win, NSDictionary *bindings) {
         return !CFEqual(self.window, win.window);
